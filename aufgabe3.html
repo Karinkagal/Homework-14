@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wrapper {
+    width: 1000px;
+    height: 500px;
+}
+img {
+    display: none;
+}
+.block {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+button{
+    cursor: pointer;
+}
+    </style>
+</head>
+<body>
+    <body>
+        <div class="wrapper">
+            <img src="./assets/images/sport.jpg" onclick="change1()" class="block" alt="sportequipment" id="firstpic">
+            <img src="./assets/images/forest.jpg"onclick="change2()"alt="riverandforests" id="secpic">
+            <img src="./assets/images/office.jpg"onclick="change3()"alt="team" id="thirdpic">
+        </div><br>
+        <button class="buttonBack" onclick="changeback()">Back</button>
+        <button class="buttonForward"onclick="changeforw()">Forward</button>
+        <script src="script.js" class="btnRight"></script>
+    <script src="./aufgabe3.js"></script>
+</body>
+</html>
